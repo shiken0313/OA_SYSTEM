@@ -4,9 +4,9 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	
-    <!-- 由于Spring Boot自动配置缘故，此处不必配置，只用来做做样。-->
+    <!-- 由于Spring Boot自动配置缘故，此处不必配置，只用来做做样。
 	<settings>
 		<setting name="mapUnderscoreToCamelCase" value="true"/>
 	</settings>
-	
+	-->
 </configuration>
