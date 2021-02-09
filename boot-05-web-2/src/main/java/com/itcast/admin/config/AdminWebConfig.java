@@ -13,7 +13,7 @@ public class AdminWebConfig implements WebMvcConfigurer {
 	public void addInterceptors(InterceptorRegistry registry) {
 		registry.addInterceptor(new LoginInterceptor())
 		.addPathPatterns("/**") //所有請求都被攔截包括靜態資源
-		.excludePathPatterns("/", "/login","/css/**","/font/**","/images/**","/js/**");
+		.excludePathPatterns("/", "/login","/css/**","/fonts/**","/images/**","/js/**");
 		
 	}
 
